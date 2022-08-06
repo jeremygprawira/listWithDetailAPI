@@ -13,6 +13,7 @@
 		8FB54AD5289E166000CAAD74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB54AD3289E166000CAAD74 /* Main.storyboard */; };
 		8FB54AD7289E166300CAAD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB54AD6289E166300CAAD74 /* Assets.xcassets */; };
 		8FB54ADA289E166300CAAD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB54AD8289E166300CAAD74 /* LaunchScreen.storyboard */; };
+		8FB54AE2289E192B00CAAD74 /* MealAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB54AE1289E192B00CAAD74 /* MealAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8FB54AD6289E166300CAAD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FB54AD9289E166300CAAD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FB54ADB289E166300CAAD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB54AE1289E192B00CAAD74 /* MealAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8FB54AD6289E166300CAAD74 /* Assets.xcassets */,
 				8FB54AD8289E166300CAAD74 /* LaunchScreen.storyboard */,
 				8FB54ADB289E166300CAAD74 /* Info.plist */,
+				8FB54AE1289E192B00CAAD74 /* MealAPI.swift */,
 			);
 			path = listWithDetailAPI;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FB54AD2289E166000CAAD74 /* ViewController.swift in Sources */,
+				8FB54AE2289E192B00CAAD74 /* MealAPI.swift in Sources */,
 				8FB54ACE289E166000CAAD74 /* AppDelegate.swift in Sources */,
 				8FB54AD0289E166000CAAD74 /* SceneDelegate.swift in Sources */,
 			);
